@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Segoe UI, 'Tahoma', Geneva, Verdana, sans-serif;
+    background: #ffffff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container{
+    padding: 20px;
+  }
+  .card{
+    background: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(225, 12, 12, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  .balance {
+    font-size: 30px;
+    color: #2e8b57;
+    margin-bottom: 2px;
+  }
+ 
+  .deposit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 6px;
+    border-radius: 10px;
+    width: 50%;
+  }
+  .withdraw {
+    background-color: #f44336;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+
+  }
+  
