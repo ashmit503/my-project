@@ -1,0 +1,48 @@
+
+
+body{
+    background:rgb(178, 178, 178);
+    display: flex;
+    justify-content: center;
+    
+}
+.outterarea{
+    padding: 20px;
+    
+}
+.innerbox{
+    background: white;
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+   
+   
+}
+.balance{
+    font-size: 24px;
+   
+    color: lightgreen;
+    
+}
+.buttons{
+    
+}
+
+.deposit{
+    font-size: 18px; 
+    color: white;
+    width: 280px;
+    border-style: none;
+    border-radius: 3px;
+  background-color: lightgreen
+}
+.withdraw{
+    font-size: 18px;
+    color: white;
+    width: 280px;
+    border-radius: 3px;
+    border-style: none;
+  background-color: red
+}
