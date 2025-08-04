@@ -1,48 +1,54 @@
-
-
-body{
-    background:rgb(178, 178, 178);
-    display: flex;
-    justify-content: center;
-    
-}
-.outterarea{
-    padding: 20px;
-    
-}
-.innerbox{
-    background: white;
-    padding: 20px;
-    width: 400px;
-    display: flex;
-    justify-content: center;
-    border-radius: 10px;
-   
-   
-}
-.balance{
-    font-size: 24px;
-   
-    color: lightgreen;
-    
-}
-.buttons{
-    
+body {
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+     align-items: center;
+  height: 100vh;
+     margin: 0;
 }
 
-.deposit{
-    font-size: 18px; 
-    color: white;
-    width: 280px;
-    border-style: none;
-    border-radius: 3px;
-  background-color: lightgreen
+.outerarea {
+  padding: 20px;
 }
-.withdraw{
-    font-size: 18px;
-    color: white;
-    width: 280px;
-    border-radius: 3px;
-    border-style: none;
-  background-color: red
+
+.innerbox {
+  background: white;
+  
+  
+    padding: 30px;
+  width: 300px;
+  border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.balance {
+  font-size: 32px;
+  color: green;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  display: block;
+  width: 100%;
+     padding: 12px;
+     font-size: 18px;
+      color: white;
+
+
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0;
+  
+}
+
+
+
+
+.deposit {
+  background-color: #28a745;
+}
+
+.withdraw {
+  background-color: #dc3545;
 }
