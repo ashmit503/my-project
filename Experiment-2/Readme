@@ -12,7 +12,7 @@ then we created the div in which the balance is written
 
 at last we created the buttons div which contains 2 buttons deposit and withdraw
 
-NOW IN CSS FILEM
+********************* NOW IN CSS FILE ********************
 
 at first we have given the styling to the complete body which means this properties will be applied to every 
 element that is present in the body tag 
@@ -35,7 +35,13 @@ where we gave the similar properties to both the button using (.buttons button)
 now we need to just chnage the color of the buttoms ,  then we will used the button name to chnage the color like
 deposit will be of green color anjf withdraw will be of red color
 
+LEARNING OUTCOMES-:
 
+Learnt how to add the display property , use of flex 
+Learnt how to align items in the center of the page 
+Learnt how to use classnames while giving the css properties 
+Learnt how to add padding , margins ,height and width 
+Learnt how to deal with multiple Div's 
 
 
 
