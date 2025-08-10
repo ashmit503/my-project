@@ -1,0 +1,83 @@
+NAME=ASHMIT THAKUR
+UID=23BAI70503
+SECTION=23AML7-A
+
+EXPERIMENT-3
+
+
+ADMIN DASHBOARD AND THEME SWITCHING
+
+
+To build a html page with the theme switching (light to dark and dark to light) 
+
+---
+Page Structure 
+
+1 Header
+
+Displaying the title of the dashboard and a theme switch option.
+
+- Contains the heading Admin Dashboard.
+- Includes a checkbox switch between light and dark themes, saying Dark Theme.
+
+---
+
+2 Sidebar Navigation
+
+
+- Contains 3 links:
+  - Home
+  - Users
+  - Settings
+- Links are presented using href tag .
+
+---
+
+3 Main Content Area
+working area for the admin.
+
+- Shows a welcome message:
+  
+---
+
+4 Footer
+
+
+- To Shows: Copyright
+
+---
+
+Theme Switching
+The dashboard uses CSS custom properties** (`--bg-header`, `--bg-footer`, `--bg-nav`) to manage theme colors.
+
+- Default Light Theme
+  - Header/Footer: light green 
+  - Sidebar: light gray shade 
+
+- Dark Theme: when checkbox is checked
+  - Header/Footer: darker brown-gray shades
+  - Sidebar: darker gray
+  - Text changes to white for readability
+
+---
+CSS Styling Breakdown
+
+- `display: none;`to hide the actual checkbox and only uses the label to trigger the theme change.
+
+- `display: grid;` to ensures the layout always fills the screen.
+
+- Background color comes from `--bg-header`.
+
+- Background color from `--bg-footer`.
+
+- Background color from `--bg-nav`.
+
+
+
+---
+
+Learning Outcomes
+1. Learned how to use CSS Grid for a structured page layout with a fixed sidebar.
+2. Understood how to implement light/dark theme switching using CSS custom properties and a hidden checkbox.
+3. Practiced clean separation of HTML structure and CSS styling.
+4. Gained experience in making layouts responsive and accessible with semantic HTML tags.
