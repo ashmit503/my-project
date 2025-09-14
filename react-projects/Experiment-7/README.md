@@ -29,7 +29,11 @@ Monitor → $199.99 → In Stock
 LEARNING OUTCOMES-
 
 Understood how props are used in React to pass data dynamically between components.
+
 Learned how to build reusable and modular components for better maintainability.
+
 Gained practical experience in Flexbox layout for aligning and styling UI elements.
+
 Realized how combining logic (props) with design (CSS) creates a complete user-friendly interface.
+
 Strengthened understanding of component-based development in React applications.
