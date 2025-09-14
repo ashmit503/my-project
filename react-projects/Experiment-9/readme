@@ -1,0 +1,38 @@
+NAME- Ashmit Thakur
+SECTION- 23AML-7
+UID- 23BAI70503
+
+AIM- To Understand and apply the concept of inheritance in JavaScript (ES6 classes) by creating a base class and extending it into specialized subclasses.
+
+EXPLANATION OF THE COMPLETE CODE AND BASIC FEATURES-
+
+1. It is the demonstration of how object-oriented programming (OOP) concepts are implemented in JavaScript. 
+
+2. The design begins with a base class called Person, which serves as the parent class and represents the general characteristics of a person.
+
+3. The Person class has two properties, name and age, which are initialized through its constructor, and it also defines a method displayInfo() that returns these details in a formatted string.
+
+4. Building upon this, two specialized subclasses, Student and Teacher, are created using the extends keyword, which allows them to inherit the properties and methods of the Person class.
+
+5. The Student class introduces an additional property called course to specify the program of study, while the Teacher class introduces a department property to indicate the academic department.
+
+6. Both subclasses override the displayInfo() method so that they can include their own unique attributes alongside the inherited details.
+
+7. To achieve this, the super keyword is used: in the constructor, it calls the parent class constructor to initialize the common attributes (name and age), 
+   and in the method, it calls the parent’s displayInfo() method to reuse the existing functionality before adding new details.
+
+8. After defining the class hierarchy, two objects are created: one representing a student named Ashmit Thakur enrolled in BE CSE (AI/ML), 
+   and another representing a teacher named Mr. Ram from the Computer Science department.
+
+9. Finally, the program uses DOM manipulation by selecting the <pre> element with document.getElementById("output") and setting its textContent to the formatted details of both objects.
+
+10. The <pre> tag ensures that line breaks and spacing are preserved, making the output clearly readable on the webpage.
+
+11. Overall, this program effectively demonstrates the principles of inheritance, encapsulation, method overriding, and code reusability in JavaScript,
+    while also showing how object-oriented models can be applied to represent real-world entities such as students and teachers in a class hierarchy.
+
+LEARNING OUTCOMES-
+1. Understood the code demonstrates how a base class (Person) can be extended by derived classes (like Student or Teacher) to reuse common properties.
+2. Understood creating objects of subclasses and treating them as instances of the parent class, allowing different objects to respond differently to the same method call.
+3. Learnt the practical Demonstration of Class Hierarchies, how real-world relationships (e.g., a person can be a student or a teacher) can be modeled using class hierarchies,
+   bridging abstract concepts with practical coding structures.
