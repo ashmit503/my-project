@@ -106,6 +106,8 @@ Test all endpoints (including edge cases, such as non-existent categories or col
 Validate responses for correct structure and data types.
 Handle errors gracefully and check for meaningful error messages.
 
+F. Output screenshots are present in the ouptut_screenshots folder 
+
 3. Summary
 
 The provided code creates a RESTful API for an e-commerce catalog using Express.js and MongoDB, with endpoints for seeding, retrieving, and filtering products.
