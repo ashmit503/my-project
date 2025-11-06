@@ -81,3 +81,5 @@ Lock aging could be managed robustly across distributed environments.
 Additional endpoints for unlocking or retrieving user-specific locked seats could be added.
 
 User authentication and session management could enforce authorization for seat locking.
+
+

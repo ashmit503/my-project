@@ -19,7 +19,7 @@ app.use(express.json());
 app.use("/api/products", productsRouter);
 
 app.get("/", (req, res) => {
-  res.send("E-commerce app running");
+  res.send("E-comm app running");
 });
 
 const MONGODB_URI = process.env.MONGODB_URI ;
