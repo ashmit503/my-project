@@ -9,7 +9,7 @@ function initRealtime(server) {
 
   const sub = getSub();
 
-  // When Redis publishes a flag update
+  // When Redis publishes a flag updatee
   sub.on("message", (channel, message) => {
     if (channel === "flags_updates") {
       console.log("📢 Broadcasting flag update:", message);
